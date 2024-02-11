@@ -1,0 +1,182 @@
+/* GoldenGlow - CSS */
+
+/* Colors */
+:root {
+  --primary: #ffbf00; /* Golden Yellow */
+  --secondary: #ffc700; /* Bright Yellow */
+  --tertiary: #ffdb58; /* Pale Goldenrod */
+  --quaternary: #ffeead; /* Light Yellow */
+  --quinary: #b2ad1b; /* Olive Green */
+}
+
+/* Font */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary);
+}
+
+/* Links */
+a {
+  color: var(--quinary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #e6ad00; /* Darken primary color on hover */
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #f2c400; /* Darken secondary color on hover */
+}
+
+/* Forms */
+.form-control {
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: var(--primary);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary);
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0f0f0; /* Lighten text color on hover */
+}
+
+/* Alerts */
+.alert {
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.alert-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.alert-secondary {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  color: white;
+}
+
+/* Badges */
+.badge-primary {
+  background-color: var(--primary);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.badge-secondary {
+  background-color: var(--secondary);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+/* Cards */
+.card {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: var(--primary);
+  color: white;
+  padding: 15px;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-footer {
+  background-color: var(--secondary);
+  color: white;
+  padding: 15px;
+  border-radius: 0 0 20px 20px;
+}
+
+/* Tables */
+.table {
+  background-color: var(--quaternary);
+  color: var(--quinary);
+  border-radius: 20px;
+}
+
+.table th, .table td {
+  border-color: var(--quinary);
+}
+
+/* Progress Bars */
+.progress-bar {
+  background-color: var(--primary);
+}
+
+/* Pagination */
+.pagination {
+  justify-content: center;
+}
+
+.pagination .page-link {
+  border-radius: 20px !important;
+  transition: background-color 0.3s ease;
+}
+
+.pagination .page-link:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.pagination .active .page-link {
+  background-color: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}

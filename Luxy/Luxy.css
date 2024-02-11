@@ -1,0 +1,128 @@
+/* Luxy Theme - CSS */
+
+/* Colors */
+:root {
+  --primary: #7952b3; /* Purple */
+  --secondary: #008080; /* Teal */
+  --tertiary: #ff7e67; /* Coral */
+  --quaternary: #33cccc; /* Turquoise */
+  --quinary: #fbca36; /* Golden Yellow */
+}
+
+/* Font */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Links */
+a {
+  color: var(--quaternary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #5a3d8a; /* Darken primary color on hover */
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #006666; /* Darken secondary color on hover */
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--primary);
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f0f0f0; /* Lighten text color on hover */
+}
+
+/* Alerts */
+.alert {
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.alert-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.alert-secondary {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  color: white;
+}
+
+/* Cards */
+.card {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  background-color: var(--primary);
+  color: white;
+  padding: 15px;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-footer {
+  background-color: var(--secondary);
+  color: white;
+  padding: 15px;
+  border-radius: 0 0 20px 20px;
+}
+
+/* Tables */
+.table {
+  background-color: transparent;
+  color: var(--quaternary);
+}
+
+.table th, .table td {
+  border-color: var(--quaternary);
+}
+
+/* Progress Bars */
+.progress-bar {
+  background-color: var(--primary);
+}

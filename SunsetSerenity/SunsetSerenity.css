@@ -1,0 +1,183 @@
+
+/* SunsetSerenity - CSS */
+
+/* Colors */
+:root {
+  --p: #ff6f61; /* Coral */
+  --s: #ffd166; /* Yellow */
+  --t: #06d6a0; /* Green */
+  --q: #118ab2; /* Blue */
+  --qn: #073b4c; /* Navy */
+}
+
+/* Font */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--p);
+}
+
+/* Links */
+a {
+  color: var(--q);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.b {
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bp {
+  background-color: var(--p);
+  border-color: var(--p);
+  color: white;
+}
+
+.bp:hover {
+  background-color: #ff544e; /* Darken primary color on hover */
+}
+
+.bs {
+  background-color: var(--s);
+  border-color: var(--s);
+  color: white;
+}
+
+.bs:hover {
+  background-color: #ffc328; /* Darken secondary color on hover */
+}
+
+/* Forms */
+.fc {
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.fc:focus {
+  border-color: var(--p);
+}
+
+/* Navbar */
+.nb {
+  background-color: var(--p);
+  color: white;
+}
+
+.nbl {
+  color: white;
+}
+
+.nbl:hover {
+  color: #f0f0f0; /* Lighten text color on hover */
+}
+
+/* Alerts */
+.a {
+  border-radius: 20px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.ap {
+  background-color: var(--p);
+  border-color: var(--p);
+  color: white;
+}
+
+.as {
+  background-color: var(--s);
+  border-color: var(--s);
+  color: white;
+}
+
+/* Badges */
+.bd {
+  background-color: var(--p);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.bd2 {
+  background-color: var(--s);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+/* Cards */
+.cd {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.cd:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ch {
+  background-color: var(--p);
+  color: white;
+  padding: 15px;
+  border-radius: 20px 20px 0 0;
+}
+
+.cf {
+  background-color: var(--s);
+  color: white;
+  padding: 15px;
+  border-radius: 0 0 20px 20px;
+}
+
+/* Tables */
+.t {
+  background-color: var(--qn);
+  color: white;
+  border-radius: 20px;
+}
+
+.t th, .t td {
+  border-color: white;
+}
+
+/* Progress Bars */
+.pb {
+  background-color: var(--p);
+}
+
+/* Pagination */
+.pg {
+  justify-content: center;
+}
+
+.pg .pl {
+  border-radius: 20px !important;
+  transition: background-color 0.3s ease;
+}
+
+.pg .pl:hover {
+  background-color: var(--p);
+  color: white;
+}
+
+.pg .ac .pl {
+  background-color: var(--p);
+  color: white;
+  border-color: var(--p);
+}

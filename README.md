@@ -3,5 +3,6 @@ HuePrism offers a diverse collection of vibrant Bootstrap skins, providing a spe
 
 Contribute to HuePrism ♥️
 
+Use jsDelivr CDNs :- https://www.jsdelivr.com/package/gh/sh20raj/hueprism
 
 Made with ♥️ by SH20RAJ 
